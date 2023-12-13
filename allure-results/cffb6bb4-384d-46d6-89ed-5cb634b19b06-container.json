@@ -1,0 +1,1 @@
+{"uuid":"cffb6bb4-384d-46d6-89ed-5cb634b19b06","name":"Testng","children":["923cd092-8c80-4872-b2fe-55d6141aa060"],"befores":[{"name":"startBrowser","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1700112102827,"stop":1700112109288}],"afters":[],"start":1700112102807,"stop":1700112109479}

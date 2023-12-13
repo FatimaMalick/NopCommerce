@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Testng(failed)">
+    <classes>
+      <class name="testCasePackage.loginTestCases">
+        <methods>
+          <include name="startBrowser"/>
+          <include name="verifyLoginwithWrongEmailandPassword"/>
+          <include name="VerifyUserDoesnotExistInSystem_SignupNewForAccount"/>
+          <include name="verifyLoginWithValidCredentials"/>
+        </methods>
+      </class> <!-- testCasePackage.loginTestCases -->
+      <class name="testCasePackage.SelectandPlaceOrderTestCases">
+        <methods>
+          <include name="login"/>
+          <include name="startbrowser"/>
+          <include name="AddCheckOutDetails"/>
+          <include name="CheckOutAgain"/>
+        </methods>
+      </class> <!-- testCasePackage.SelectandPlaceOrderTestCases -->
+    </classes>
+  </test> <!-- Testng(failed) -->
+</suite> <!-- Failed suite [Suite] -->
